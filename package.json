@@ -1,0 +1,29 @@
+{
+  "name": "rocket-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "init-db": "node db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquerocharafael/rocket-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquerocharafael/rocket-news/issues"
+  },
+  "homepage": "https://github.com/henriquerocharafael/rocket-news#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "path": "^0.12.7",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  }
+}

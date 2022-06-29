@@ -18,7 +18,7 @@ body {
   height: 100vh;
 
   background-color: var(--body-bg-color);
-  background-image: url("./assets/read_news.jpg");
+  background-image: url("../assets/read_news.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 646px;
